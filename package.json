@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Welcome to the **Guiding Plans** (I, II, III, IV, and V) educational manual. This resource is designed to support learning, planning, development, and publishing for programmers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/server.test.js",
+    "build:shell": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSystem32/basic-shell-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/iSystem32/basic-shell-guide/issues"
+  },
+  "homepage": "https://github.com/iSystem32/basic-shell-guide#readme",
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
